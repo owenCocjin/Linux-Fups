@@ -39,6 +39,7 @@ Assuming you've already got a live USB kickin' around, this is how you fix it:
 
 2. Determine which partition is your `root` partition. This is where the libs are gonna be stored. For me, I always give myself plenty of `/home` storage and about half the `/` storage, so for me my root partition is gonna be the somewhat smaller partition.
 ![lsblk command](https://github.com/owenCocjin/Linux-Fups/raw/master/Fups/Libc.so.6/Pics/lsblk.png "lsblk")
+
 <i>I've intentionally hid the mountpoints. Here I know my root partition is on /dev/sda2 because it is one of the bigger partitions, but is half the size of /dev/sda4.</i>
 
 3. Mount the root partition. Normally you can mount it in /mnt. Move into /mnt. <b>NOTE:</b> You won't need to chroot into your partition. In fact, it probably won't even work.
