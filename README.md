@@ -3,4 +3,4 @@
 
 ---
 
-- [libc.so.6 deleted!](https://github.com/owenCocjin/Fups/Libc.so.6)
+- [libc.so.6 deleted!](https://github.com/owenCocjin/Linux-Fups/tree/master/Fups/Libc.so.6)
