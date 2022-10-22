@@ -1,0 +1,6 @@
+cannot execute: required file not found
+During startup program exited with code 127.
+I got this error while trying to run a binary for a CTF.
+This error means your computer isn't the correct architecture to run the binary.
+In my case I had a x64 arch, trying to run an x86 bin.
+I found my solution for my Debian-based VM here: https://superuser.com/questions/435988/how-can-i-resolve-the-error-cannot-execute-binary-file
